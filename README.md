@@ -1,5 +1,6 @@
 # MSEE Short Course on Uncertainty Quantification
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SURGroup/MSEE_UQ_Short_Course/main)
 
 This three-day course introduces the basics concepts of uncertainty quantification and propagation in complex multiscale engineering systems. Probabilistic and Uncertainty Quantification (UQ) methods are presented in the morning followed by Python modeling exercises using the UQpy software in the afternoon to reinforce the material. At the end of this course, it is the goal that attendees will have a foundation in the principles of UQ and the practical acumen to apply these principles to UQ problems in their application areas of interest.
 
