@@ -1,0 +1,11 @@
+name: sfepy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - sfepy
+  - notebook
+  - rise
+  - uqpy=4.0.1
+prefix: /opt/anaconda3/envs/sfepy
