@@ -7,6 +7,7 @@ dependencies:
   - sfepy
   - notebook
   - rise
+  - beartype=0.9.1
   - jupyter_contrib_nbextensions
   - uqpy=4.0.1
 prefix: /opt/anaconda3/envs/sfepy
