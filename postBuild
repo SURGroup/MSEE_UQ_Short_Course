@@ -1,3 +1,4 @@
+pip install UQpy==4.0.2
 pip install beartype==0.9.1
 jupyter contrib nbextension install --user
 jupyter nbextension enable splitcell/splitcell
