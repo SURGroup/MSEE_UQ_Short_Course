@@ -8,5 +8,4 @@ dependencies:
   - notebook
   - rise
   - jupyter_contrib_nbextensions
-  - uqpy=4.0.2
 prefix: /opt/anaconda3/envs/sfepy
