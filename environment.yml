@@ -1,6 +1,7 @@
 name: sfepy
 channels:
   - conda-forge
+  - SURG_JHU
   - defaults
 dependencies:
   - python=3.9
