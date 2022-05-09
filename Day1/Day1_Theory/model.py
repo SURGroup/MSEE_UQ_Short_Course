@@ -1,4 +1,4 @@
-class PythonModel:
+class RegressionModel:
     def __init__(self, samples=None):
         list1=[]
         for x in samples:
