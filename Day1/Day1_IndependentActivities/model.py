@@ -7,9 +7,9 @@ def boucwen(params):
     scale_factor=0.1
     # Read input acceleration from el-centro data set
     time_vec, input_acceleration = read_elcentro(scale=scale_factor)
-    k = params[0][0]
-    r0 = params[0][1]
-    delta = params[0][2]
+    k = params[0]
+    r0 = params[1]
+    delta = params[2]
     
     # Simulate the behavior of the system forward in time
     ys = np.zeros((3, time_vec.size))
@@ -23,6 +23,19 @@ def boucwen(params):
     time_rf = k * ys[2, :]    # reaction force
 
     return max(time_disp)
+
+
+def boucwen_runmodel(params_array):
+    """ 
+    Run Bou-Wn model with RunModel
+    """
+    max_disp=list()
+    number_of_samples=params_array.shape[0]
+    for i in range(0,number_of_samples):
+        max_disp.append(boucwen(params_array[i]))
+    
+    return max_disp
+    
 
     
     
