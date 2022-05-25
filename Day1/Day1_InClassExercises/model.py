@@ -23,6 +23,13 @@ def boucwen(params):
     time_rf = k * ys[2, :]    # reaction force
 
     return max(time_disp)
+
+
+def boucwen_runmodel(params_array):
+    """ 
+    Run Bou-Wn model with RunModel
+    """
+    return boucwen(params_array[0])
     
 
     

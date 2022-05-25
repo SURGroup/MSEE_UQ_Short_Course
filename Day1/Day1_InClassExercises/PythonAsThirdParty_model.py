@@ -7,7 +7,7 @@ from os import path
 def run_model(index):
     # Model is run here using CLI 
     # Runs are performed in run/{index} folder
-    name_='elastic_contact_sphere_'+str(index)+'.py'
+    name_='elastic_contact_sphere_new_'+str(index)+'.py'
 
     current_dir = os.getcwd()
 
