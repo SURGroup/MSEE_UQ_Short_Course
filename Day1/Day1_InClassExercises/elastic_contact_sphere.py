@@ -29,9 +29,8 @@ from sfepy.mechanics.matcoefs import stiffness_from_lame
 #filename_mesh = data_dir + '/meshes/3d/cube_medium_hexa.mesh'
 filename_mesh = './cube_medium_hexa.mesh'
 
-k = 1e5 # Elastic sphere stiffness for positive penetration. 1e5
-f0 = 1e-2 # Force at zero penetration. 1e-2
-
+k = <k> # Elastic sphere stiffness for positive penetration. 1e5
+f0 = <f0> # Force at zero penetration. 1e-2
 
 options = {
     'nls' : 'newton',
