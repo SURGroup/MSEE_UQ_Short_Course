@@ -15,4 +15,3 @@ Pre-Workshop Activities
 - Participants should have Python installed on their system and have at least a beginning knowledge of how to code in Python
 - Participants will be given instructions for installing the open source software UQpy and any other necessary software on their system.           
 - If the participant has a simple code that they would like to use for UQ, they are encouraged to have an example available. Instructions will be provided.
-
