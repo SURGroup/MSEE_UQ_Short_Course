@@ -7,5 +7,5 @@ dependencies:
   - sfepy
   - notebook
   - rise
-  - jupyter_contrib_nbextensions
+  # - jupyter_contrib_nbextensions
 prefix: /opt/anaconda3/envs/sfepy
