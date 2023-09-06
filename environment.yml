@@ -6,6 +6,6 @@ dependencies:
   - python=3.9
   - sfepy
   - notebook
-  - rise
+  # - rise
   # - jupyter_contrib_nbextensions
 prefix: /opt/anaconda3/envs/sfepy
